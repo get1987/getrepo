@@ -1,0 +1,13 @@
+apiVersion: v1
+Kind: pod
+metadata:
+  name: gregs-pod
+  labels:
+    zone: prod
+    version: v1
+Spec:
+  containers:
+  - name: gregs-ctr
+    image: gregs/famousephotos:latest
+    ports:
+    - containerPort: 2019
