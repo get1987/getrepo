@@ -1,0 +1,9 @@
+﻿apiVersion:v1
+Kind: loop
+metadata:
+  name: deployment loop
+spec:
+   depliyment version +1
+    Spec: 
+      var: (2,8)
+       port: 2019
